@@ -4,7 +4,7 @@ import { Button } from "./ui/button"
 import { useState, useEffect } from "react"
 
 // API configuration
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxs9tUMiRRz3MmDBWR2627KSD69GKmcPUbsD39uVlrnfaCU3fMGZL3TkZQSgFIS5zkK/exec"
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzpSqjz4o3AMDnurfTm2L54U5NB5XXo2ztDW67GGZsRA-l3HiNpYfNXlamaZ4-2M7w/exec"
 
 export default function PartyStagesTable({ party, onAction }) {
   const [stageData, setStageData] = useState([])
